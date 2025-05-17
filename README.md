@@ -65,9 +65,6 @@ O diretório `backend` contém uma aplicação Spring Boot 3.4.5 com Java 21, ba
   - Capacidade
   - Quantidade em estoque
   - Preço
-- Autenticação via JWT:
-  - Endpoints públicos: `/auth/login`, `/auth/register`
-  - Endpoints protegidos para manipulação de estoque
 - Documentação da API com Swagger (SpringDoc OpenAPI):
   - Acesse: [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
 - Configuração CORS para integração com o React
