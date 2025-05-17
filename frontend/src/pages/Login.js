@@ -22,8 +22,11 @@ export function Login() {
   return (
     <div className="login-container">
       <div className="login-box">
-        <h2>AJIZ</h2>
+        <img src="/ajiz.png" alt="Minha Logo" className="logo" />
+        
+
         {error && <p className="error-message">{error}</p>}
+
         <form onSubmit={handleSubmit}>
           <div className="form-group">
             <label htmlFor="username">Usuário:</label>
